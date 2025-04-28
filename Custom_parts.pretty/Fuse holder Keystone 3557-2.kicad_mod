@@ -1,0 +1,122 @@
+(footprint "Fuse holder Keystone 3557-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "fuse holder fuseholder")
+	(property "Reference" "F1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3d4fcd91-f9f6-4b29-ac5a-73d098e3d207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse"
+		(at 0 6.73 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3181f93-b729-414c-ae78-2c049220caf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "515bb432-35a3-4455-8ee6-b390b06484a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f55e9f49-8f7b-4845-9948-e51d751f4c0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8997cf8c-fd7f-4877-a11c-41c39925b6c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.905 -3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b6c09b1a-f5eb-4f4c-bbf4-3a37e99c49e1")
+	)
+	(fp_rect
+		(start -10 -3.5)
+		(end 10 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "85dd0c7d-6d09-49dc-a637-4c4eea626654")
+	)
+	(pad "1" thru_hole circle
+		(at -6.735 -1.7)
+		(size 2.5 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "102bb546-8519-4e70-93fc-7c44aa6f2bd9")
+	)
+	(pad "1" thru_hole circle
+		(at -6.735 1.7)
+		(size 2.5 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e57b4ba-0cd9-4b95-83dc-b04e82a87419")
+	)
+	(pad "2" thru_hole circle
+		(at 6.735 -1.7)
+		(size 2.5 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4639035c-2cb4-4c49-a0a6-0e1721a4817f")
+	)
+	(pad "2" thru_hole circle
+		(at 6.735 1.7)
+		(size 2.5 2.5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5dcc02d-6334-448b-abfb-6a936e18e515")
+	)
+)
