@@ -1085,13 +1085,13 @@
 		)
 	)
 	(junction
-		(at 92.71 43.18)
+		(at 82.55 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95335292-4e2f-40cc-9e8b-6966df4f7730")
+		(uuid "57956f23-cd14-4581-b6f5-825beaae6d04")
 	)
 	(no_connect
-		(at 91.44 45.72)
+		(at 77.47 45.72)
 		(uuid "86a75af8-b975-4ecf-9828-3462e2b5910c")
 	)
 	(wire
@@ -1156,13 +1156,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 43.18) (xy 101.6 43.18)
+			(xy 86.995 38.1) (xy 87.63 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40b6eaa0-9fb0-4322-a19f-7e0a75f15cac")
+		(uuid "4ebc983a-22e5-4427-91aa-ed914ff78d0e")
 	)
 	(wire
 		(pts
@@ -1176,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 49.53) (xy 101.6 43.18)
+			(xy 82.55 49.53) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 34.29) (xy 101.6 38.1)
+			(xy 87.63 34.29) (xy 87.63 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 92.71 40.64)
+			(xy 77.47 40.64) (xy 82.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1226,17 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 100.965 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96310fb2-f39f-448e-ab55-a9de069bde3a")
-	)
-	(wire
-		(pts
-			(xy 91.44 38.1) (xy 93.345 38.1)
+			(xy 77.47 38.1) (xy 79.375 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 43.18) (xy 91.44 43.18)
+			(xy 77.47 43.18) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 92.71 43.18)
+			(xy 82.55 40.64) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +1559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 64.77 73.66 0)
 			(effects
 				(font
@@ -1607,7 +1597,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 97.155 38.1 90)
+		(at 83.185 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1616,7 +1606,7 @@
 		(fields_autoplaced yes)
 		(uuid "318a102d-1bb8-4919-994f-3d5164259a38")
 		(property "Reference" "F1"
-			(at 97.155 33.6382 90)
+			(at 83.185 33.6382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1614,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 97.155 36.1751 90)
+			(at 83.185 36.1751 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" "Custom_parts:Fuse holder Keystone 3557-2"
-			(at 97.155 39.878 90)
+			(at 83.185 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.155 38.1 0)
+			(at 83.185 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.155 38.1 0)
+			(at 83.185 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,15 +1671,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 101.6 34.29 0)
+		(at 87.63 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "34c6c16f-4101-4012-9ef0-6f0e92aa6aac")
-		(property "Reference" "#PWR01"
-			(at 101.6 38.1 0)
+		(property "Reference" "#PWR02"
+			(at 87.63 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1688,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 101.6 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1714,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1728,7 @@
 		(instances
 			(project ""
 				(path "/4265d214-fcee-41c6-a88d-6c6bd3f38fd2"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1752,7 +1742,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 86.36 40.64 0)
+		(at 72.39 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1762,7 +1752,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ae3fbd7-43c3-40f9-ba93-33b016cd17e5")
 		(property "Reference" "J1"
-			(at 86.36 35.6672 0)
+			(at 72.39 35.6672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1760,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 86.36 35.6671 0)
+			(at 72.39 35.6671 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1769,7 @@
 			)
 		)
 		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical"
-			(at 86.36 40.64 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 40.64 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 40.64 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 64.77 68.58 0)
 			(effects
 				(font
@@ -2308,15 +2298,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 49.53 0)
+		(at 82.55 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9ae74a5a-35b8-41d1-b0bc-b0c268d80282")
-		(property "Reference" "#PWR02"
-			(at 101.6 55.88 0)
+		(property "Reference" "#PWR01"
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 53.34 0)
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 49.53 0)
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 49.53 0)
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 49.53 0)
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2355,7 @@
 		(instances
 			(project ""
 				(path "/4265d214-fcee-41c6-a88d-6c6bd3f38fd2"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
